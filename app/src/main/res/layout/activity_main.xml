@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     >
 
     <com.dxy.custommutipleview.view.TitleTextView
@@ -26,5 +27,10 @@
         android:padding="10dp"
         dang:image="@mipmap/c"
         dang:imageScaleType="center"
+        />
+
+    <com.dxy.custommutipleview.view.CounterView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         />
 </LinearLayout>
