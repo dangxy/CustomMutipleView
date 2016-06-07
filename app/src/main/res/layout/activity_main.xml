@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dang="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
     <com.dxy.custommutipleview.view.TitleTextView
@@ -15,4 +16,15 @@
         android:layout_centerInParent="true"
         android:padding="10dp"
         />
-</RelativeLayout>
+
+    <com.dxy.custommutipleview.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        dang:title_text_color="#ff0000"
+        dang:title_text="custom image view"
+        dang:title_text_size="30sp"
+        android:padding="10dp"
+        dang:image="@mipmap/c"
+        dang:imageScaleType="center"
+        />
+</LinearLayout>
