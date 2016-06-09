@@ -103,6 +103,30 @@ public class BaseGraphics extends View {
 //
 //        canvas.drawCircle(200,800,100,mPaint);
 
+        mPaint.setColor(Color.GRAY);
+
+        canvas.drawRect(rectF,mPaint);
+
+
+        mPaint.setColor(Color.BLUE);
+
+
+        canvas.drawArc(rectF,0,90,false,mPaint);
+
+
+        RectF rectF1 = new RectF(100,600,800,900);
+
+
+        mPaint.setColor(Color.GRAY);
+
+        canvas.drawRect(rectF1,mPaint);
+
+
+        mPaint.setColor(Color.BLUE);
+
+        canvas.drawArc(rectF1,0,90,true,mPaint);
+
+
 
 
 
