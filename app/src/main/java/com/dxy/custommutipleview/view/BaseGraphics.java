@@ -84,24 +84,24 @@ public class BaseGraphics extends View {
 
 
 
-        mPaint.setColor(Color.BLACK);
-
-
-        mPaint.setStrokeWidth(40);
-
-
-        mPaint.setStyle(Paint.Style.STROKE);
-
-       canvas.drawCircle(200,200,100,mPaint);
-
-
-        mPaint.setStyle(Paint.Style.FILL);
-
-        canvas.drawCircle(200,500,100,mPaint);
-
-        mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
-
-        canvas.drawCircle(200,800,100,mPaint);
+//        mPaint.setColor(Color.BLACK);
+//
+//
+//        mPaint.setStrokeWidth(40);
+//
+//
+//        mPaint.setStyle(Paint.Style.STROKE);
+//
+//       canvas.drawCircle(200,200,100,mPaint);
+//
+//
+//        mPaint.setStyle(Paint.Style.FILL);
+//
+//        canvas.drawCircle(200,500,100,mPaint);
+//
+//        mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
+//
+//        canvas.drawCircle(200,800,100,mPaint);
 
 
 
