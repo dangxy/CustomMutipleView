@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TitleViewActivity"></activity>
+        <activity android:name=".TitleViewActivity" />
+        <activity android:name=".BaseGraphicsActivity"></activity>
     </application>
 
 </manifest>

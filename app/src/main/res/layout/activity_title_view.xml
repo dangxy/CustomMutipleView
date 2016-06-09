@@ -7,8 +7,14 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_centerInParent="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
 
     </com.dxy.custommutipleview.view.TitleView>
+
+    <com.dxy.custommutipleview.view.BaseGraphics
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
